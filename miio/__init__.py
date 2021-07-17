@@ -29,6 +29,7 @@ from miio.chuangmi_camera import ChuangmiCamera
 from miio.chuangmi_ir import ChuangmiIr
 from miio.chuangmi_plug import ChuangmiPlug
 from miio.cooker import Cooker
+from miio.cooker_multi import MultiCooker
 from miio.curtain_youpin import CurtainMiot
 from miio.gateway import Gateway
 from miio.heater import Heater
