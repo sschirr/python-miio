@@ -321,6 +321,8 @@ class CookerStatus(DeviceStatus):
 class MultiCooker(Device):
     """Main class representing the multi cooker."""
 
+    _supported_models = [MODEL_MULTI]
+
     @command(
         default_output=format_output(
             "",
